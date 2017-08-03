@@ -1,6 +1,6 @@
 {
-  "name": "slick-emitter",
-  "version": "0.0.1",
+  "name": "mixins.events",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
