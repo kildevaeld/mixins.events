@@ -2,7 +2,7 @@
   "name": "slick-emitter",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,6 @@
     "type": "git",
     "url": "https://github.com/kildevaeld/mixins.events"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "types": "lib/index.d.ts"
 }
