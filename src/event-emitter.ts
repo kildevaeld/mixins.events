@@ -67,7 +67,7 @@ export function EventEmitter<T extends Constructor<{}>>(Base: T): Constructor<IE
                     removeFromListener(value, fn, ctx)
                 });
 
-                this._listeners = new Map();
+                //this._listeners = new Map();
 
             }
 
