@@ -8,9 +8,9 @@ export type Constructor<T> = new (...args: any[]) => T;
  * @interface IEventListener
  */
 export interface IEventListener {
-    listenTo(obj: IEventEmitter, event: string, fn: EventHandler, ctx?: any): any;
-    listenToOnce(obj: IEventEmitter, event: string, fn: EventHandler, ctx?: any): any;
-    stopListening(obj?: IEventEmitter, event?: string, fn?: EventHandler): any;
+    listenTo(obj: IEventEmitter, event: any, fn: EventHandler, ctx?: any): any;
+    listenToOnce(obj: IEventEmitter, event: any, fn: EventHandler, ctx?: any): any;
+    stopListening(obj?: IEventEmitter, event?: any, fn?: EventHandler): any;
 }
 
 
